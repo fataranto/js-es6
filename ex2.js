@@ -7,7 +7,7 @@ let puedesPasar = true;
 edad = 17;
 
 if (edad < 18) {
-    let puedesPasar = false;
+    let puedesPasar = false; // la variable se está declarando nuevamente en el ámbito de la función
 }
 
 console.log(puedesPasar) // false

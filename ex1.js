@@ -11,6 +11,6 @@
     return valor + 1
 } */
 
-actualizarContador = (valor) => valor + 1;
+let actualizarContador = (valor) => valor + 1;
 
 console.log(actualizarContador(1)); //2 
